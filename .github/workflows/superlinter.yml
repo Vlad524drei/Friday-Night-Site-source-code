@@ -1,5 +1,5 @@
-jobs:
-  build:
+jobs:Psych engine
+  build:android build psych engine
     runs-on: [ubuntu-latest, macos-latest]
     steps:
       - uses: krdlab/setup-haxe@v1
