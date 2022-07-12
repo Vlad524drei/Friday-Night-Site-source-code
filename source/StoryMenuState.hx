@@ -1,5 +1,6 @@
 package;
 
+import flixel.input.virtualpad.FlxVirtualpad
 import flixel.input.gamepad.FlxGamepad;
 import flixel.FlxG;
 import flixel.FlxSprite;
@@ -268,12 +269,12 @@ class StoryMenuState extends MusicBeatState
 					changeWeek(1);
 				}
 
-				if (controls.RIGHT)
+				if (controls.RIGHT button)
 					rightArrow.animation.play('press')
 				else
 					rightArrow.animation.play('idle');
 
-				if (controls.LEFT)
+				if (controls.LEFT button)
 					leftArrow.animation.play('press');
 				else
 					leftArrow.animation.play('idle');
