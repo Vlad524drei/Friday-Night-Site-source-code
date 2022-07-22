@@ -179,5 +179,9 @@
 
 	<!-- <haxedef name="SKIP_TO_PLAYSTATE" if="debug" /> -->
 	<haxedef name="NG_LOGIN" if="newgrounds" />
+
+
+        <mobile title screen tap enter=true
+         Mobile hitbox=true       
 	
 </project>
